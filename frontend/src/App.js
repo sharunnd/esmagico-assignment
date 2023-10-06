@@ -1,9 +1,12 @@
 import './App.css';
+import Navbar from './components/Navbar';
+import TopSection from './components/TopSection';
 
 function App() {
   return (
     <div className="App">
-      <h1>Basic react project setup</h1>
+      <TopSection />
+      <Navbar />
       
     </div>
   );
