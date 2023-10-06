@@ -1,4 +1,6 @@
 import './App.css';
+import MiddleSection from './components/MiddleSection';
+
 import Navbar from './components/Navbar';
 import TopSection from './components/TopSection';
 
@@ -7,7 +9,7 @@ function App() {
     <div className="App">
       <TopSection />
       <Navbar />
-      
+      <MiddleSection />
     </div>
   );
 }

@@ -21,6 +21,7 @@ const RegistrationForm = () => {
       bg="rgba(255, 255, 255, 1)"
       borderRadius="20px"
       border="1px dotted rgba(174, 183, 195, 1)"
+      boxShadow="0px 23px 64px 0px rgba(83, 141, 215, 0.46)"
     >
         {/* Flex container with vertical alignment and dotted border */}
       
@@ -60,7 +61,7 @@ const RegistrationForm = () => {
             <Box width="" height="131px" mt={5}>
               <Image src={topic} width="100%" alt="spking_reg_img" />
             </Box>
-            
+
             {/* Register Button */}
 
             <Button
