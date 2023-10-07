@@ -19,9 +19,9 @@ function App() {
       <MiddleSection />
       <LiveLearningSessions />
       <LiveLearningSessionWork />
-      {/* <VideoCarousel /> */}
-      {/* <Clients /> */}
-      {/* <About /> */}
+      <VideoCarousel />
+      <Clients />
+      <About />
       {/* <TrendingSpeakers /> */}
       {/* <Footer /> */}
     </div>

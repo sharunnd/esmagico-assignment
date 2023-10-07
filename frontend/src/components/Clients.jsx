@@ -1,15 +1,15 @@
-import { Box, Image } from "@chakra-ui/react"
-import clientsimg from "../images/clients.png"
+import { Box, Image, useMediaQuery } from "@chakra-ui/react";
+import clientsimg from "../images/clients.png";
 
+const Clients = () => {
 
-const Clients = ()=>{
-    return(
-        <Box mt="92px">
-           <Box >
-           <Image src={clientsimg} width="100%" alt="miclientsddlesection"/>
-           </Box>
-        </Box>
-    )
-}
+  return (
+    <Box mt={{ base: "24px", sm: "30px", md: "85px", lg: "92px" }}>
+      <Box>
+        <Image src={clientsimg} width="100%" alt="miclientsddlesection" />
+      </Box>
+    </Box>
+  );
+};
 
-export default Clients
+export default Clients;
