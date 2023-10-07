@@ -3,6 +3,7 @@ import aboutbg from "../images/about/aboutbg.png";
 import yellow from "../images/about/yellow.png";
 import mikebg from "../images/about/mikbg.png";
 import mike from "../images/about/mike.png";
+import about from "../images/about/about.png";
 
 const About = () => {
   return (
@@ -12,9 +13,9 @@ const About = () => {
           <Image src={aboutbg} width="100%" alt="img" />
         </Box>
         <Box position="absolute" top="35px">
-          <Image src={yellow} width="100%" alt="yellowbg" />
+          <Image src={about} width="100%" alt="yellowbg" />
         </Box>
-        <Box position="absolute" top="60px" bg="rgba(255, 222, 0, 1)">
+        {/* <Box position="absolute" top="60px" bg="rgba(255, 222, 0, 1)">
           <Image src={mikebg} width="100%" alt="mikebg" />
         </Box>
         <Box position="absolute" top="85px" left="137px">
@@ -27,7 +28,7 @@ const About = () => {
           <Box lineHeight="28px" width="635px" height="135px" mt={5}>
           <Text ontWeight={400} fontSize="18px">SpeakIn is Asia's largest on-demand network providing access to top regional speakers, thought leaders and their content. Enabling organizations to build performance agility and win over disruption, at SpeakIn only the best come together to inform, inspire and motivate.</Text>
           </Box>
-        </Box>
+        </Box> */}
       </Box>
     </Flex>
   );
