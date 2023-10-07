@@ -22,8 +22,8 @@ function App() {
       <VideoCarousel />
       <Clients />
       <About />
-      {/* <TrendingSpeakers /> */}
-      {/* <Footer /> */}
+      <TrendingSpeakers />
+      <Footer />
     </div>
   );
 }
