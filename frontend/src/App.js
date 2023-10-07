@@ -7,6 +7,7 @@ import MiddleSection from './components/MiddleSection';
 
 import Navbar from './components/Navbar';
 import TopSection from './components/TopSection';
+import TrendingSpeakers from './components/TrendingSpeakers';
 import VideoCarousel from './components/VideoCarousel';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <VideoCarousel />
       <Clients />
       <About />
+      <TrendingSpeakers />
     </div>
   );
 }
