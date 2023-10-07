@@ -1,4 +1,5 @@
 import './App.css';
+import LiveLearningSessions from './components/LiveLearningSessions';
 import MiddleSection from './components/MiddleSection';
 
 import Navbar from './components/Navbar';
@@ -10,6 +11,7 @@ function App() {
       <TopSection />
       <Navbar />
       <MiddleSection />
+      <LiveLearningSessions />
     </div>
   );
 }
