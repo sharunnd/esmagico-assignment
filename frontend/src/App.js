@@ -17,13 +17,13 @@ function App() {
       <TopSection />
       <Navbar />
       <MiddleSection />
-      <LiveLearningSessions />
-      <LiveLearningSessionWork />
-      <VideoCarousel />
-      <Clients />
-      <About />
-      <TrendingSpeakers />
-      <Footer />
+      {/* <LiveLearningSessions /> */}
+      {/* <LiveLearningSessionWork /> */}
+      {/* <VideoCarousel /> */}
+      {/* <Clients /> */}
+      {/* <About /> */}
+      {/* <TrendingSpeakers /> */}
+      {/* <Footer /> */}
     </div>
   );
 }
