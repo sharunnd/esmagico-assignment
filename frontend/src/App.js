@@ -17,8 +17,8 @@ function App() {
       <TopSection />
       <Navbar />
       <MiddleSection />
-      {/* <LiveLearningSessions /> */}
-      {/* <LiveLearningSessionWork /> */}
+      <LiveLearningSessions />
+      <LiveLearningSessionWork />
       {/* <VideoCarousel /> */}
       {/* <Clients /> */}
       {/* <About /> */}
