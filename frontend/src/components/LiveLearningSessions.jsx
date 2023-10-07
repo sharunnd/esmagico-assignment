@@ -36,7 +36,7 @@ const LiveLearningSessions = () => {
           </Button>
           <Box>
             <Text fontWeight={600} fontSize="32px">
-              Trending Live Learning Sessions
+              Live Learning Sessions
             </Text>
           </Box>
           <Flex mt="49px">

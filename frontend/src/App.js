@@ -1,4 +1,5 @@
 import './App.css';
+import LiveLearningSessionWork from './components/LiveLearningSessionWork';
 import LiveLearningSessions from './components/LiveLearningSessions';
 import MiddleSection from './components/MiddleSection';
 
@@ -12,6 +13,7 @@ function App() {
       <Navbar />
       <MiddleSection />
       <LiveLearningSessions />
+      <LiveLearningSessionWork />
     </div>
   );
 }
