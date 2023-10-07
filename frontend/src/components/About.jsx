@@ -7,8 +7,8 @@ import about from "../images/about/about.png";
 
 const About = () => {
   return (
-    <Flex position={"relative"} mt="66px">
-      <Box >
+    <Box  mt="66px" height="494px">
+      <Box position={"relative"}>
         <Box position="absolute" top={0}>
           <Image src={aboutbg} width="100%" alt="img" />
         </Box>
@@ -30,7 +30,7 @@ const About = () => {
           </Box>
         </Box> */}
       </Box>
-    </Flex>
+    </Box>
   );
 };
 
