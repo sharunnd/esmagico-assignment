@@ -17,8 +17,8 @@ const RegistrationForm = () => {
   return (
     <Box
       position="absolute"
-      top="688px"
-      left="136px"
+      top={{ base: "100px",sm:"100px", md: "688px", lg: "688px" }}
+      left={{ base: "5px",sm:"10px", md: "136px", lg: "136px" }}
       bg="rgba(255, 255, 255, 1)"
       borderRadius="20px"
       border="1px dotted rgba(174, 183, 195, 1)"
@@ -30,36 +30,36 @@ const RegistrationForm = () => {
         flexDirection={"column"}
         alignItems={"center"}
         border="1px dotted rgba(174, 183, 195, 1)"
-        m="32px"
-        height="100%"
+        m={{ base: "5px",sm:"", md: "", lg: "32px" }}
+        height={{ base: "756px",sm:"", md: "", lg: "100%" }}
       >
-        <Box width="198px" height="112px" mt={10}>
+        <Box width={{ base: "200px",sm:"", md: "", lg: "198px" }} height={{ base: "50px",sm:"", md: "", lg: "112px" }} mt={{ base: "5px",sm:"5px", md: "10px", lg: "10px" }}>
           <Image src={speakin_reg} width="100%" alt="spking_reg_img" />
         </Box>
 
          {/* Form Inputs */}
 
-        <Box p="61px" pb={5}>
+        <Box p={{ base: "5px",sm:"10px", md: "50px", lg: "61px" }} pb={{ base: "5px",sm:"", md: "", lg: "20px" }}>
           <Box width="410px">
             <FormControl isRequired>
               <FormLabel>Name</FormLabel>
               <Input placeholder="Enter name" />
-              <FormLabel mt={5}>Email</FormLabel>
+              <FormLabel mt={{ base: "2px",sm:"", md: "", lg: "15px" }}>Email</FormLabel>
               <Input placeholder="Enter email" />
 
-              <FormLabel mt={5}>Mobile Number</FormLabel>
+              <FormLabel mt={{ base: "2px",sm:"", md: "", lg: "15px" }}>Mobile Number</FormLabel>
               <Flex>
                 <Select width="100px">
                   <option value="+91">+91</option>
                 </Select>
                 <Input type="tel" placeholder="+91" />
               </Flex>
-              <FormLabel mt={5}>Organization</FormLabel>
+              <FormLabel mt={{ base: "2px",sm:"", md: "", lg: "15px" }}>Organization</FormLabel>
               <Input placeholder="Enter name" />
-              <FormLabel mt={5}>Select Date</FormLabel>
+              <FormLabel mt={{ base: "2px",sm:"", md: "", lg: "15px" }}>Select Date</FormLabel>
               <Input type="date" placeContent={"dsd"} />
             </FormControl>
-            <Box width="" height="131px" mt={5}>
+            <Box width="" height={{ base: "50px",sm:"", md: "", lg: "131px" }} mt={{ base: "22px",sm:"", md: "", lg: "15px" }}>
               <Image src={topic} width="100%" alt="spking_reg_img" />
             </Box>
 
