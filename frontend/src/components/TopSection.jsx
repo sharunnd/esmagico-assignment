@@ -6,6 +6,7 @@ import rect2 from "../images/Rectangle_2.png";
 import rect3 from "../images/Rectangle_3.png";
 import RegistrationForm from "./RegistrationForm";
 import shakehand_bg from "../images/shakehand_bg.png";
+import shakehand from "../images/handshakeimg.png";
 
 const TopSection = () => {
   return (
@@ -30,6 +31,9 @@ const TopSection = () => {
       <RegistrationForm />
       <Box position="absolute" top="1029px" left="950px">
         <Image src={shakehand_bg}  width="814px" height="804px"/>
+      </Box>
+      <Box position="absolute" top="1295px" left="1054px">
+        <Image src={shakehand}  width="319px" height="370px"/>
       </Box>
       <Box position={"absolute"} top="1143px" left="783px" textAlign={"left"} lineHeight="68px">
         <Text fontSize={46} fontWeight={600} color="rgba(0, 0, 0, 1)">

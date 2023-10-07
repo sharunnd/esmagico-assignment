@@ -1,4 +1,4 @@
-import { Box, Image, Text } from "@chakra-ui/react"
+import { Box, Image } from "@chakra-ui/react"
 import middleSection from "../images/middlesection.png"
 
 

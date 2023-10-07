@@ -8,7 +8,7 @@ import nameCard5 from "../images/namecard/NameCard5.png";
 const TrendingSpeakers = () => {
   const nameCards = [nameCard1, nameCard2, nameCard3, nameCard4, nameCard5];
   return (
-    <Box mt="29px" textAlign="center">
+    <Box mt="29px" textAlign="center" height="345px">
       <Box
         width="305px"
         height="47px"

@@ -1,6 +1,7 @@
 import './App.css';
 import About from './components/About';
 import Clients from './components/Clients';
+import Footer from './components/Footer';
 import LiveLearningSessionWork from './components/LiveLearningSessionWork';
 import LiveLearningSessions from './components/LiveLearningSessions';
 import MiddleSection from './components/MiddleSection';
@@ -22,6 +23,7 @@ function App() {
       <Clients />
       <About />
       <TrendingSpeakers />
+      <Footer />
     </div>
   );
 }
