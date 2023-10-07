@@ -12,6 +12,7 @@ import {
 import speakin_reg from "../images/speakin_register.png";
 import topic from "../images/image_above_reg_btn.png";
 
+
 const RegistrationForm = () => {
   return (
     <Box

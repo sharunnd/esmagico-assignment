@@ -41,12 +41,12 @@ const LiveLearningSessions = () => {
           </Box>
           <Flex mt="49px">
             {liveSessionImages &&
-              liveSessionImages.map((el) => (
+              liveSessionImages.map((el,index) => (
                 <Box rounded="14px" mr="36px" width="205px" height="130px" position={"relative"}>
                     <Box position={"absolute"} top="10px" left="10px">
-                        <Image src={rec}/>
+                        <Image  src={rec} alt="rec"/>
                     </Box>
-                  <Image src={el[0]} rounded="14px" width="100%" alt="img" />
+                  <Image key={index} src={el[0]} rounded="14px" width="100%" alt="img" />
                   <Box
                     p={5}
                     bgColor={"white"}
