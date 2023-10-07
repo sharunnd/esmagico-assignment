@@ -21,7 +21,7 @@ import {
         color="rgba(255, 255, 255, 1)"
       >
         <Flex
-          flexDirection={{ base: "column", lg: "row" }}
+          flexDirection={{ base: "column-reverse", lg: "row" }}
           justify="space-between"
           align="center"
           px={{ base: "20px", lg: "0px" }}
@@ -38,7 +38,7 @@ import {
               </Text>
             </Box>
           </Box>
-          <Box mt={{ base: "30px", lg: "80px" }} mr={{ base: "20px", lg: "150px" }}>
+          <Box mt={{ base: "20px", lg: "80px" }} mr={{ base: "20px", lg: "150px" }}>
             <Flex>
               <FormControl>
                 <Input
