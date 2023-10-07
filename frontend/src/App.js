@@ -5,6 +5,7 @@ import MiddleSection from './components/MiddleSection';
 
 import Navbar from './components/Navbar';
 import TopSection from './components/TopSection';
+import VideoCarousel from './components/VideoCarousel';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <MiddleSection />
       <LiveLearningSessions />
       <LiveLearningSessionWork />
+      <VideoCarousel />
     </div>
   );
 }
