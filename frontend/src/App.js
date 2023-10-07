@@ -1,4 +1,6 @@
 import './App.css';
+import About from './components/About';
+import Clients from './components/Clients';
 import LiveLearningSessionWork from './components/LiveLearningSessionWork';
 import LiveLearningSessions from './components/LiveLearningSessions';
 import MiddleSection from './components/MiddleSection';
@@ -16,6 +18,8 @@ function App() {
       <LiveLearningSessions />
       <LiveLearningSessionWork />
       <VideoCarousel />
+      <Clients />
+      <About />
     </div>
   );
 }
