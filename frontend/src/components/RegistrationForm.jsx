@@ -33,14 +33,14 @@ const RegistrationForm = () => {
         m={{ base: "5px",sm:"", md: "", lg: "32px" }}
         height={{ base: "756px",sm:"", md: "", lg: "100%" }}
       >
-        <Box width={{ base: "200px",sm:"", md: "", lg: "198px" }} height={{ base: "50px",sm:"", md: "", lg: "112px" }} mt={{ base: "5px",sm:"5px", md: "10px", lg: "10px" }}>
+        <Box width={{ base: "200px",sm:"", md: "", lg: "198px" }} height={{ base: "50px",sm:"", md: "", lg: "112px" }} mt={{ base: "5px",sm:"5px", md: "10px", lg: "10px" }} mb={{ base: "55px",sm:"", md: "", lg: "5px" }}>
           <Image src={speakin_reg} width="100%" alt="spking_reg_img" />
         </Box>
 
          {/* Form Inputs */}
 
         <Box p={{ base: "5px",sm:"10px", md: "50px", lg: "61px" }} pb={{ base: "5px",sm:"", md: "", lg: "20px" }}>
-          <Box width="410px">
+          <Box width={{ base: "100%",sm:"100%", lg: "410px" }}>
             <FormControl isRequired>
               <FormLabel>Name</FormLabel>
               <Input placeholder="Enter name" />
@@ -68,7 +68,7 @@ const RegistrationForm = () => {
             <Button
               width="100%"
               rounded="48px"
-              mt={37}
+              mt={{ base: "139px", lg: "37px" }}
               bg="rgba(83, 141, 215, 1)"
             >
               <Text
