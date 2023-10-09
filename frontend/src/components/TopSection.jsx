@@ -1,4 +1,14 @@
-import { Box, Button, Image, Modal, ModalBody, ModalContent, ModalOverlay, Text, useMediaQuery } from "@chakra-ui/react";
+import {
+  Box,
+  Button,
+  Image,
+  Modal,
+  ModalBody,
+  ModalContent,
+  ModalOverlay,
+  Text,
+  useMediaQuery,
+} from "@chakra-ui/react";
 import wallpaper from "../images/Wallpaper.jpg";
 import ScheduleSection from "./ScheduleSection";
 import rect1 from "../images/Rectangle_11.png";
@@ -25,7 +35,7 @@ const TopSection = () => {
       <ScheduleSection />
       <Box
         position="absolute"
-        top={{ base: "190px", sm: "300px",md: "66%", lg: "72%" }}
+        top={{ base: "190px", sm: "300px", md: "66%", lg: "72%" }}
         width="100%"
       >
         <Box width="100%">
@@ -34,7 +44,7 @@ const TopSection = () => {
       </Box>
       <Box
         position="absolute"
-        top={{ base: "190px", sm: "280px",md: "70%",  lg: "76%" }}
+        top={{ base: "190px", sm: "280px", md: "70%", lg: "76%" }}
         width="100%"
       >
         <Box width="100%">
@@ -53,32 +63,34 @@ const TopSection = () => {
       {!isSmallerThan768 && <RegistrationForm />}
       <Box
         position="absolute"
-        top={{ base: "355px", sm: "450px", md: "900px", lg: "1029px" }}
-        left={{ base: "201px", sm: "300px", md: "700px", lg: "950px" }}
+        top={{ base: "355px", sm: "450px", md: "900px", lg: "120%" }}
+        left={{ base: "201px", sm: "300px", md: "700px", lg: "68%" }}
       >
         <Image
           src={shakehand_bg}
-          width={{ base: "106px", sm: "200px", md: "600px", lg: "814px" }}
-          height={{ base: "101px", sm: "150px", md: "600px", lg: "804px" }}
+          width={{ base: "106px", sm: "200px", md: "600px", lg: "120%" }}
+          height={{ base: "101px", sm: "150px", md: "600px", lg: "68%" }}
         />
       </Box>
       <Box
         position="absolute"
-        top={{ base: "355px", sm: "450px", md: "100px", lg: "1295px" }}
-        left={{ base: "201px", sm: "250px", md: "900px", lg: "1054px" }}
+        top={{ base: "355px", sm: "450px", md: "100px", lg: "155%" }}
+        left={{ base: "201px", sm: "250px", md: "900px", lg: "72%" }}
       >
         <Image
           src={shakehand}
-          width={{ base: "106px", sm: "150px", md: "250px", lg: "319px" }}
-          height={{ base: "101px", sm: "200px", md: "300px", lg: "370px" }}
+          width={{ base: "106px", sm: "150px", md: "250px", lg: "78%" }}
+          height={{ base: "101px", sm: "200px", md: "300px", lg: "100%" }}
+
         />
       </Box>
       <Box
         position={"absolute"}
-        top={{ base: "355px", sm: "450px", md: "900px", lg: "1143px" }}
-        left={{ base: "45px", sm: "150px", md: "400px", lg: "783px" }}
+        top={{ base: "355px", sm: "450px", md: "900px", lg: "135%" }}
+        left={{ base: "45px", sm: "150px", md: "400px", lg: "53%" }}
         textAlign={"left"}
         lineHeight={{ base: "23px", sm: "40px", md: "60px", lg: "68px" }}
+
       >
         <Text
           fontSize={{ base: "16px", sm: "20px", md: "30px", lg: "46px" }}
@@ -114,20 +126,18 @@ const TopSection = () => {
           >
             <Text fontWeight={700}>REGISTER</Text>
           </Button>
-          
         )}
         {isModalOpen && (
-            <Modal isOpen={isModalOpen} onClose={closeModal}>
-              <ModalOverlay />
-              <ModalContent>
-                <ModalBody>
-                  <RegistrationForm />
-                </ModalBody>
-              </ModalContent>
-            </Modal>
-          )}
+          <Modal isOpen={isModalOpen} onClose={closeModal}>
+            <ModalOverlay />
+            <ModalContent>
+              <ModalBody>
+                <RegistrationForm />
+              </ModalBody>
+            </ModalContent>
+          </Modal>
+        )}
       </Box>
-      
     </Box>
   );
 };

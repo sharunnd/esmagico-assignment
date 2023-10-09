@@ -7,7 +7,7 @@ const MiddleSection = () => {
   return (
     <>
       {!isSmallerThan458 ? (
-        <Box mt="70%">
+        <Box mt="70%" >
           <Box width="60%" height="40%" ml="17%">
             <Image src={middleSection} width="100%" alt="middlesection" />
           </Box>

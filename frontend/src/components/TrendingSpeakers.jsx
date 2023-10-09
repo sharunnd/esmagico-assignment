@@ -21,7 +21,7 @@ const TrendingSpeakers = () => {
   const isSmallScreen = window.innerWidth < 768;
 
   return (
-    <Box mt={{ base: "10px", sm: "20px", md: "25px", lg: "29px" }} textAlign="center">
+    <Box mt={{ base: "10px", sm: "20px", md: "25px", lg: "29px" }} textAlign="center" >
       <Text fontWeight={600} fontSize={{ base: "16px", sm: "20px", md: "32px", lg: "32px" }} mb="4">
         Trending Speakers
       </Text>

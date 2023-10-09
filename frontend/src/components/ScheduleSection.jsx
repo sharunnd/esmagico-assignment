@@ -11,13 +11,13 @@ const ScheduleSection = () => {
       top={{ base: "40px", sm: "7%", md: "8%", lg: "10%" }}
       left={{ base: "200px", sm: "200px", md: "50%", lg: "50%" }}
       width={{ base: "50%", sm: "177px", md: "", lg: "51%" }}
-      border="2px solid red"
+      
     >
       <Box
         height={{ base: "69px", sm: "69px", md: "10%", lg: "12%" }}
         textAlign={"left"}
         lineHeight={{ base: "21px", sm: "25px", md: "40px", lg: "60px" }}
-        border="2px solid blue"
+     
         width={{ base: "100%", lg: "100%" }}
       >
         <Text
@@ -47,10 +47,10 @@ const ScheduleSection = () => {
         borderRadius={{ base: "6px", sm: "10px", md: "20px", lg: "20px" }}
         pl={{ base: "5px", sm: "10px", md: "20px", lg: "4%" }}
         zIndex={10}
-        border="2px solid yellow"
+        
       >
-        <Flex alignItems={"center"} border="2px solid green">
-          <Box mt={{ base: "5px", sm: "10px", md: "30px", lg: "6%" }} border="2px solid yellow">
+        <Flex alignItems={"center"}>
+          <Box mt={{ base: "5px", sm: "10px", md: "30px", lg: "6%" }} >
             <Image
               src={speakin_img}
               alt="speakin"
@@ -58,7 +58,7 @@ const ScheduleSection = () => {
               height={{ base: "14px", sm: "", md: "", lg: "45px" }}
             />
           </Box>
-          <Box mt={{ base: "5px", sm: "10px", md: "20px", lg: "6%" }} ml={3} border="2px solid red">
+          <Box mt={{ base: "5px", sm: "10px", md: "20px", lg: "6%" }} ml={3} >
             <Image
               src={union}
               alt="union"
