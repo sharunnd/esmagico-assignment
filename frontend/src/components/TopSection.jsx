@@ -21,30 +21,33 @@ const TopSection = () => {
   };
   return (
     <Box position="relative">
-      <Image src={wallpaper} alt="wallpaper" />
+      <Image src={wallpaper} width="100%" alt="wallpaper" />
       <ScheduleSection />
       <Box
         position="absolute"
-        top={{ base: "190px", sm: "300px", md: "400px", lg: "600px" }}
+        top={{ base: "190px", sm: "300px",md: "66%", lg: "72%" }}
+        width="100%"
       >
-        <Box>
-          <Image src={rect1} alt="rect1" />
+        <Box width="100%">
+          <Image src={rect1} width="100%" alt="rect1" />
         </Box>
       </Box>
       <Box
         position="absolute"
-        top={{ base: "190px", sm: "280px", md: "360px", lg: "643px" }}
+        top={{ base: "190px", sm: "280px",md: "70%",  lg: "76%" }}
+        width="100%"
       >
-        <Box>
-          <Image src={rect3} alt="rect3" />
+        <Box width="100%">
+          <Image src={rect3} width="100%" alt="rect3" />
         </Box>
       </Box>
       <Box
         position="absolute"
-        top={{ base: "190px", sm: "300px", md: "400px", lg: "615px" }}
+        top={{ base: "190px", sm: "300px", md: "400px", lg: "73%" }}
+        width="100%"
       >
-        <Box>
-          <Image src={rect2} alt="rect2" />
+        <Box width="100%">
+          <Image src={rect2} width="100%" alt="rect2" />
         </Box>
       </Box>
       {!isSmallerThan768 && <RegistrationForm />}
