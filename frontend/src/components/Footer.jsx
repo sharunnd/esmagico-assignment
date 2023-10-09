@@ -19,6 +19,7 @@ import {
         mt="130px"
         bg="rgba(0, 0, 0, 1)"
         color="rgba(255, 255, 255, 1)"
+        
       >
         <Flex
           flexDirection={{ base: "column-reverse", lg: "row" }}

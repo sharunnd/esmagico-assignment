@@ -12,7 +12,6 @@ import liveTxt5 from "../images/live-sessions/livetext5.png";
 import rec from "../images/live-sessions/rec_img.png";
 
 const LiveLearningSessions = () => {
-
   const liveSessionImages = [
     [liveImg1, liveTxt1],
     [liveImg2, liveTxt2],
@@ -22,36 +21,68 @@ const LiveLearningSessions = () => {
   ];
 
   return (
-    <Box height={{ base: "200px",sm:"200px", md: "450px", lg: "473px" }} mt={{ base: "40px",sm:"50px", md: "100px", lg: "114px" }} border={"1px solid white"} bgColor="#e1ebf9">
-      <Box ml="10%" textAlign={"left"} mt={{ base: "20px",sm:"20px", md: "50px", lg: "63px" }}>
+    <Box
+      height={{ base: "200px", sm: "200px", md: "450px", lg: "473px" }}
+      mt={{ base: "40px", sm: "50px", md: "8%", lg: "8%" }}
+      border={"1px solid white"}
+      bgColor="#e1ebf9"
+      width="100%"
+      
+    >
+      <Box
+        ml="10%"
+        textAlign={"left"}
+        mt={{ base: "20px", sm: "20px", md: "50px", lg: "5%" }}
+
+      >
         <Box>
           <Button
             bgColor="rgba(255, 142, 79, 1)"
             color="white"
             rounded={10}
-            width={{ base: "80px",sm:"80px", md: "103px", lg: "103px" }}
-            height={{ base: "25px",sm:"25px", md: "30px", lg: "36px" }}
+            width={{ base: "80px", sm: "80px", md: "103px", lg: "103px" }}
+            height={{ base: "25px", sm: "25px", md: "30px", lg: "36px" }}
           >
             <Text>Trending</Text>
           </Button>
           <Box>
-            <Text fontWeight={600} fontSize={{ base: "16px",sm:"25px", md: "25px", lg: "32px" }}>
+            <Text
+              fontWeight={600}
+              fontSize={{ base: "16px", sm: "25px", md: "25px", lg: "32px" }}
+            >
               Live Learning Sessions
             </Text>
           </Box>
-          <Flex mt={{ base: "10px",sm:"10px", md: "40px", lg: "49px" }}>
+          <Flex mt={{ base: "10px", sm: "10px", md: "40px", lg: "49px" }}>
             {liveSessionImages &&
-              liveSessionImages.map((el,index) => (
-                <Box rounded="14px" mr={{ base: "5px",sm:"5px", md: "30px", lg: "36px" }} width="205px" height="130px" position={"relative"}>
-                    <Box position={"absolute"} top="10px" left="10px">
-                        <Image  src={rec} alt="rec"/>
-                    </Box>
-                  <Image key={index} src={el[0]} rounded="14px" width="100%" alt="img" />
+              liveSessionImages.map((el, index) => (
+                <Box
+                  rounded="14px"
+                  mr={{ base: "5px", sm: "5px", md: "30px", lg: "36px" }}
+                  width="205px"
+                  height="130px"
+                  position={"relative"}
+                >
+                  <Box position={"absolute"} top="10px" left="10px">
+                    <Image src={rec} alt="rec" />
+                  </Box>
+                  <Image
+                    key={index}
+                    src={el[0]}
+                    rounded="14px"
+                    width="100%"
+                    alt="img"
+                  />
                   <Box
-                    p={{ base: "5px",sm:"10px", md: "20px", lg: "20px" }}
+                    p={{ base: "5px", sm: "10px", md: "20px", lg: "20px" }}
                     bgColor={"white"}
                     borderBottomRadius="14px"
-                    height={{ base: "40px",sm:"50px", md: "70px", lg: "80px" }}
+                    height={{
+                      base: "40px",
+                      sm: "50px",
+                      md: "70px",
+                      lg: "80px",
+                    }}
                   >
                     <Image src={el[1]} />
                   </Box>
