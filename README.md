@@ -28,7 +28,7 @@ Install node modules, use the following command:
 
 ### `npm install`
 
-Install Chakra ui dependencies , use the following command:
+To install Chakra ui dependencies, use the following command:
 
 ### `npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion`
 
