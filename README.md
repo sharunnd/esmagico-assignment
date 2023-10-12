@@ -40,5 +40,5 @@ To start the development server and view the app in your browser, use the follow
 
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
+The page will reload when you make changes.
 You may also see any lint errors in the console.
